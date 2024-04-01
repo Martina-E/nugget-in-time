@@ -1,5 +1,6 @@
 /*Google font*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap')
+
 /*Asterisk wildcard to override default style*/
 * {
     padding: 0;
@@ -7,7 +8,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,32 +16,139 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-header{
+header {
     background-color: rgb(4, 4, 126);
     color: #ffffff;
     text-align: center;
     width: 100%;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: inherit;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
 }
 
-h1, h3{
+h1,
+h3 {
     font-family: 'Roboto Slab', serif;
     letter-spacing: 2px;
 }
 
-main{
+#home-intro{
+    border: 1px solid;
+}
+
+#menu {
+    list-style-type: none;
+    background-color: rgb(4, 4, 126);
+}
+
+#menu > li{
+    margin-bottom: 1em;
+}
+
+
+main {
     background-color: blanchedalmond;
     flex: 1 0 auto;
 }
 
-footer{
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+  }
+
+footer {
     background-color: rgb(4, 4, 126);
 }
