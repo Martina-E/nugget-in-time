@@ -8,9 +8,15 @@
     <meta name="description" content="Nuggets in Time. History in bitesize chunks.">
     <meta name="keywords"
         content="WW2, history, Kristallnacht, WW1, World War 2, World War 1, Nazi, Hitler, D-Day, Hiroshima, Nagasaki">
+    <!--Google font html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>WW2 - Nuggets in Time</title>
+    <title>WW2 - Feedback - Nugget in Time</title>
 </head>
 
 <body>
@@ -35,27 +41,32 @@
         <section id="contact-intro">
             <div id="contact-intro">
                 <h2>Feedback</h2>
-                As a group of people that love history, we can sometimes miss some information. 
-                If you have any feedback that you would like to give, please use our form to 
-                tell us. And don't forget to leave your contact details so that we can get back you. 
+                As a group of people that love history, we can sometimes miss some information.
+                If you have any feedback that you would like to give, please use our form to
+                tell us. And don't forget to leave your contact details so that we can get back you.
             </div>
             <section id="feedback">
                 <form action="https://www.google.co.uk" id="feedback-form" method="POST">
                     <h3>Feedback and submissions</h3>
                     <div class="contact-input">
                         <label for="first-name" class="label">First Name</label>
+                        <br>
                         <input type="text" name="first-name" placeholder="First name" required>
                         <br>
                         <label for="last-name" class="label">Last Name</label>
+                        <br>
                         <input type="text" name="last-name" placeholder="Last name" required>
                         <br>
-                        <label for="email" class="label"></label>
+                        <label for="email" class="label">Email address</label>
+                        <br>
                         <input type="email" name="email" placeholder="Email address">
                         <br>
                     </div>
                     <div class="feedback-input">
                         <label for="message">Feedback</label>
-                        <textarea name="feedback" id="feedback" placeholder="Enter your message here..." height="200px"></textarea>
+                        <br>
+                        <textarea name="feedback" id="feedback" placeholder="Enter your message here..."
+                            height="400px" width="300px"></textarea>
                     </div>
                     <input type="submit" value="Submit">
                 </form>
