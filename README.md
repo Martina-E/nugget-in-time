@@ -7,3 +7,4 @@ Nuggets in Time is a historical education site that aims to explain various hist
 
 ## Features
 - Navigation Bar
++ The navigation bar is present at the top of all pages, with direct links to each page. The header above the navigation bar acts as a link back to the homepage. It is identical 
