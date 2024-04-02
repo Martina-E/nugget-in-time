@@ -9,7 +9,7 @@
     <meta name="keywords"
         content="WW2, history, Kristallnacht, WW1, World War 2, World War 1, Nazi, Hitler, D-Day, Hiroshima, Nagasaki">
     <!--CSS-->
-        <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>WW2 - Nuggets in Time</title>
 </head>
 
@@ -19,33 +19,49 @@
             <h1 id="site-title">Nuggets in Time</h1>
             <h3 id="tagline">History in Bitesize Chunks</h3>
         </a>
+        <div class="nav-bar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="timeline.html">At a Glance</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="nav-bar">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="timeline.html">At a Glance</a></li>
-                <li><a href="gallery.html">Gallery/a></li>
-                <li><a href="contact.html" class="active">Contact Us</a></li>
-            </ul>
-        </nav>
-    </div>
+
     <main>
         <section id="contact-intro">
             <div id="contact-intro">
                 <h2>Feedback</h2>
-                Integer malesuada, erat sed tristique mattis, nisl magna sagittis sem, sed pretium mauris erat vitae
-                felis. Nulla justo lorem, rutrum non libero non, scelerisque scelerisque mi. Donec at volutpat
-                neque. Ut accumsan ultricies libero, posuere pretium ex facilisis et. Nunc porta auctor sodales.
-                Fusce vel turpis vel metus iaculis feugiat. Phasellus feugiat ex velit, ac dictum sapien tincidunt
-                in. Sed varius viverra erat. Integer diam odio, rhoncus ac turpis non, facilisis pharetra nulla. Sed
-                tincidunt vulputate turpis id tincidunt. Etiam venenatis lorem arcu, vitae ultrices libero elementum
-                id. Praesent odio magna, consectetur id blandit ut, tristique at mi. Quisque pulvinar metus ante.
+                As a group of people that love history, we can sometimes miss some information. 
+                If you have any feedback that you would like to give, please use our form to 
+                tell us. And don't forget to leave your contact details so that we can get back you. 
             </div>
-        <section id="feedback">
-            <form action="https://google.co.uk" id="feedback-form" method="post"></form>
-        </section>
+            <section id="feedback">
+                <form action="https://www.google.co.uk" id="feedback-form" method="POST">
+                    <h3>Feedback and submissions</h3>
+                    <div class="contact-input">
+                        <label for="first-name" class="label">First Name</label>
+                        <input type="text" name="first-name" placeholder="First name" required>
+                        <br>
+                        <label for="last-name" class="label">Last Name</label>
+                        <input type="text" name="last-name" placeholder="Last name" required>
+                        <br>
+                        <label for="email" class="label"></label>
+                        <input type="email" name="email" placeholder="Email address">
+                        <br>
+                    </div>
+                    <div class="feedback-input">
+                        <label for="message">Feedback</label>
+                        <textarea name="feedback" id="feedback" placeholder="Enter your message here..." height="200px"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
     </main>
+
     <footer>
         <ul id="socials">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
