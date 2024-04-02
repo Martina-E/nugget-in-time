@@ -56,8 +56,8 @@ h3 {
   width: 50%;
 }
 
-#home-intro {
-  border: 1px solid;
+#intro {
+  border: 4px solid rgb(4, 4, 126);
 }
 
 main {
