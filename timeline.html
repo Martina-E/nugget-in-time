@@ -4,28 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Search engine tags-->
     <meta name="description" content="Nuggets in Time. History in bitesize chunks.">
     <meta name="keywords"
         content="WW2, history, Kristallnacht, WW1, World War 2, World War 1, Nazi, Hitler, D-Day, Hiroshima, Nagasaki">
-    <!--Google font html-->
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap"
         rel="stylesheet">
-    <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>WW2 - Timeline - Nugget in Time</title>
 </head>
 
 <body>
+    <!--Header section-->
     <header>
         <a href="index.html" aria-label="Click here to return to the homepage">
             <h1 id="site-title">Nuggets in Time</h1>
             <h3 id="tagline">History in Bitesize Chunks</h3>
         </a>
+        <!--Navigation bar toggle - code adapted from Love Running project-->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-grip-lines"></i>
+        </label>
     </header>
+    
     <div class="nav-bar">
         <nav>
             <ul>
@@ -45,6 +50,7 @@
                 events that happened on both sides of the world, highlighting the true global nature of the 
                 conflict. 
             </div>
+            <!--Timeline section - Code adapted from W3 Schools at https://www.w3schools.com/howto/howto_css_timeline.asp-->
             <div class="timeline">
                 <div class="container left">
                     <div class="content">
