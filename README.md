@@ -3,7 +3,7 @@
 [View the live project here](https://martina-e.github.io/nugget-in-time/index.html)
 
 ## Introduction
-Nuggets in Time is a historical education site that aims to explain various historical events in a simple, and easy-to-read manner. This specific site is based around the events of World War Two. The site will be targeted towards causal historians and students who want a simple summary of the events of World War Two. 
+Nugget in Time is a historical education site that aims to explain various historical events in a simple, and easy-to-read manner. This specific site is based around the events of World War Two. The site will be targeted towards causal historians and students who want a simple summary of the events of World War Two. 
 
 This project was made as the first of five milestone portfolio projects required to complete the Diploma in Software Development program at The Code Institute. The main requirements of the project are to create a responsive and static front-end site, with no less than three pages, to provide useful information to users, using HTML5 and CSS3. 
 
@@ -28,8 +28,6 @@ The ideal users for this website are:
 2. As a history student, I want the information that I need to be easily accesible and easy to understand. 
 3. As a history student, I want the images and videos to be relevant to the information on the site. 
 
-## Development planes
-
 ## Design
 ### Typography
 The typography used on the site are [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab) for the headers and titles, and [Raleway](https://fonts.google.com/specimen/Raleway) for the bodies of text imported from [Google Fonts](https://fonts.google.com/). Respective backups for Serif and Sans-serif was applied in the case of a failure with the import. 
@@ -38,9 +36,60 @@ The typography used on the site are [Roboto Slab](https://fonts.google.com/speci
 The imagery was sourced from the directories of [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/). 
 
 ## Features
-**Navigation Bar
+- The title of the website, as well as a tagline, is featured at the top of the window on every page. 
+- Each page features an intro, highlighting what the page is for and it's relevance to the site. 
+- The footer appears at the bottom of every page, and features icons that open links to the associated social media websites in new tabs. 
+
+*Navigation Bar*
 + The navigation bar is present at the top of all pages, below the header, with direct links to each page. The header above the navigation bar acts as a link back to the homepage. It is identical on each page to allow for easy, intuitive navigation. 
 + This wil allow the user to navigate between pages without having to go to go back to the previous page using the browser's 'Back' button.
++ Along with the header, the navigation bar streches along the screen, but resizes accoedingly on smaller screens. 
 
-*Home page*
-- The title of the website, as well as a tagline, is featured at the top of the window on every page. 
+### *Home page*
+The home page is displayed as one screen that the user scrolls down to read the content. At the top, there is a photo that acts as a link to the gallery, as well as a historically relevant Youtube video. 
+
+### *Timeline*
+This page features a vertical times, each point with a list of bullet points of significant events according to year, further stratified down into days and months on each spine point. 
+
+### *Gallery*
+This page features a series of photos that, on a larger screen, they appear stacked on top of one another. On smaller screens, the pictures appear in two columns. 
+
+### *Contact Us*
+This apge features a feedback form that encourages users to submit any feedback that they have on the website. 
+
+## Features left to implement
+- A page with a form where users can submit their own pictures for review by the site owners. Selected photos will be uploaded to the gallery with acknowledgements. 
+
+## Issues and Bugs
+
+## Deployment
+This project was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
+
+### Deploying on GitHub Pages
+This site was developed on Gitpod, and deployed to Github. To deploy this page to GitHub Pages from its repository, the following steps were taken:
+
+1. Log into GitHub with a user account.
+2. Locate the GitHub Repository.
+3. At the top of the repository, select 'Settings' from the menu.
+4. In the left-hand sidebar, in the *Code and Automation* section, select "Pages".
+5. Ensure that *Source* is set to 'Deploy from Branch' and that the main branch is selected and the folder is set to /root. Click 'Save' when this is done. 
+6. Return to the *Code* tab and refresh the repository after a few minutes to allow the build to finish. 
+7. ON the right-hand side, in *Environments*, click on 'github-pages'.
+8. Click *View deployment* to see the live site. 
+
+## Credits
+### Content
+The content of this site was collected from several sources, including:
+
+- [Wikipedia](https://www.wikipedia.org/)
+- [History.com](https://www.history.com/topics/world-war-ii)
+- [Imperial War Museum](https://www.iwm.org.uk/history)
+
+### Media
+The Youtube video on the home page was sourced from British Pathé's [Youtube channel](https://www.youtube.com/@britishpathe)
+
+### Code
+The developer consulted several different sites in order to have a better understanding of the code used on this site. For code that was copied and edited, the developer referenced this within the code. The sites used for reference were:
+- [W3 Schools](https://www.w3schools.com/)
+- [MDN Web Docs](https://developer.mozilla.org/)
+
