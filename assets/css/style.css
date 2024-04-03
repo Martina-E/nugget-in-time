@@ -58,8 +58,16 @@ h3 {
   letter-spacing: 2px;
 }
 
-.home-photo {
-  max-width: 70%;
+.media-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.media-container iframe,
+.media-container img {
+  margin: 10px; 
+  width: 50%; 
 }
 
 #intro {
