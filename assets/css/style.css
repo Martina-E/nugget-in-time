@@ -23,9 +23,11 @@ header {
   text-align: center;
   width: 100%;
 }
+
 .nav-bar{
   background-color: rgb(4, 4, 126);
 }
+
 .menu {
   list-style-type: none;
   background-color: rgb(4, 4, 126);
@@ -70,6 +72,13 @@ main {
   color: rgb(52, 8, 8);
 }
 
+.video{
+  display: flex;
+  width: 40%;
+  height: 300px;
+  justify-self: center;
+}
+
 /*Timeline settings*/
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -95,7 +104,7 @@ main {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  width: 40%;
 }
 
 /* The circles on the timeline */
@@ -162,6 +171,15 @@ main {
   position: relative;
   border-radius: 6px;
 }
+/*Gallery page*/
+#photos img{
+  width: 70%;
+  max-width: 700px;
+}
+
+#photos{
+  line-height: 0;
+}
 
 footer {
   background-color: rgb(4, 4, 126);
@@ -179,9 +197,13 @@ footer {
   color: #ffffff;
   display: inline;
 }
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
 
+/* Media queries - screens less than 600px wide */
+@media screen and (max-width: 600px) {
+#photos{
+  column-count: 2;
+  column-gap: 0;
+}
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
