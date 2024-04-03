@@ -59,11 +59,12 @@ h3 {
 }
 
 .home-photo {
-  max-width: 50%;
+  max-width: 70%;
 }
 
 #intro {
   border: 2px solid rgb(4, 4, 126);
+  display: flex;
 }
 
 main {
