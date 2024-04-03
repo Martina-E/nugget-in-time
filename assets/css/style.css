@@ -41,6 +41,7 @@ header {
   margin: 0 1em;
   color: #ffffff;
   text-align: center;
+  display: inline-block;
 }
 
 .active {
@@ -79,13 +80,6 @@ main {
   background-color: blanchedalmond;
   flex: 1 0 auto;
   color: rgb(52, 8, 8);
-}
-
-.video{
-  display: flex;
-  width: 40%;
-  height: 300px;
-  justify-self: center;
 }
 
 /*Timeline settings*/
