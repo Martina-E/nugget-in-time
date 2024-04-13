@@ -7,6 +7,8 @@ Nugget in Time is a historical education site that aims to explain various histo
 
 This project was made as the first of five milestone portfolio projects required to complete the Diploma in Software Development program at The Code Institute. The main requirements of the project are to create a responsive and static front-end site, with no less than three pages, to provide useful information to users, using HTML5 and CSS3. 
 
+(assets/nuggets-photos/nugget-responsive.png)
+
 ## UX 
 The ideal users for this website are:
 - New user
@@ -39,28 +41,52 @@ The imagery was sourced from the directories of [Unsplash](https://unsplash.com/
 - The title of the website, as well as a tagline, is featured at the top of the window on every page. 
 - Each page features an intro, highlighting what the page is for and it's relevance to the site. 
 - The footer appears at the bottom of every page, and features icons that open links to the associated social media websites in new tabs. 
+- The same colours have been used throughout the wesbite, in keeping with the theme. 
+
+[Social media links](assets/nuggets-photos/socials-snip.png)
 
 *Navigation Bar*
 + The navigation bar is present at the top of all pages, below the header, with direct links to each page. The header above the navigation bar acts as a link back to the homepage. It is identical on each page to allow for easy, intuitive navigation. 
 + This wil allow the user to navigate between pages without having to go to go back to the previous page using the browser's 'Back' button.
 + Along with the header, the navigation bar streches along the screen, but resizes accoedingly on smaller screens. 
 
+[Navigation bar](assets/nuggets-photos/navbar-snip.png)
+
 ### *Home page*
 The home page is displayed as one screen that the user scrolls down to read the content. At the top, there is a photo that acts as a link to the gallery, as well as a historically relevant Youtube video. 
+
+[Home page media ](assets/nuggets-photos/media-snip.png)
 
 ### *Timeline*
 This page features a vertical times, each point with a list of bullet points of significant events according to year, further stratified down into days and months on each spine point. 
 
-### *Gallery*
-This page features a series of photos that, on a larger screen, they appear stacked on top of one another. On smaller screens, the pictures appear in two columns. 
+[Timeline](assets/nuggets-photos/timeline-snip.png)
 
-### *Contact Us*
-This apge features a feedback form that encourages users to submit any feedback that they have on the website. 
+### *Gallery*
+This page features a series of photos that, on a smaller screen, they appear stacked on top of one another. On larger screens, the pictures appear in two columns. 
+
+### *Feedback*
+This apge features a feedback form that encourages users to submit any feedback that they have on the website. It collects the user's name and email address, and provides an expandable space for them to write and submit their feedback. 
 
 ## Features left to implement
 - A page with a form where users can submit their own pictures for review by the site owners. Selected photos will be uploaded to the gallery with acknowledgements. 
 
 ## Issues and Bugs
+This was tested on Google Chrome, Microsoft Edge and Safari for iPhone. The website is ressponsive in all of these browsers, and everything is readable and easy to understand and navigate. 
+
+There was an ongoing issue with the formatting of the navigation bar and the footer, but this was amended using tutor support. 
+
+## Validator testing 
+- HTML
+No errors were found when passed through the official W3C validator. 
+
+- CSS
+No issues were found when passed through the official (Jigsaw) validator.
+
+- Accesibilty 
+The colours and fonts are readable and easy to read. Accessibility was assessed using Lighthouse in DevTools. 
+
+[Accessibility Score](assets/nuggets-photos/accessibility.png)
 
 ## Deployment
 This project was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
