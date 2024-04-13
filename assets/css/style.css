@@ -42,6 +42,10 @@ header {
   display: inline-block;
 }
 
+a:visited {
+  color: #ffffff
+}
+
 .active {
   border-bottom: 1px solid;
 }
@@ -163,7 +167,7 @@ main {
 }
 
 #photos img{
-  width: 70%;
+  width: 50%;
   max-width: 700px;
   column-count: 2;
   column-gap: 0;
@@ -181,7 +185,7 @@ footer {
   font-size: 160%;
   padding: 5%;
   color: blanchedalmond;
-  /* display: inline; */
+  display: inline;
   text-align: center;
 }
 
@@ -193,8 +197,7 @@ footer {
 /* Media queries - screens less than 600px wide */
 @media screen and (max-width: 600px) {
 #photos{
-  column-count: 2;
-  column-gap: 0;
+  width: 100%
 }
   
   .timeline::after {
